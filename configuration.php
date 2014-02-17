@@ -1,10 +1,10 @@
 <?php
 class JConfig {
 	public $offline = '0';
-	public $offline_message = 'Trang web đang được bảo trì';
-	public $display_offline_message = '2';
-	public $offline_image = 'images/offline/construction.jpg';
-	public $sitename = 'Zendvn - Zoomla Tutorial Training';
+	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
+	public $display_offline_message = '1';
+	public $offline_image = '';
+	public $sitename = 'Joomla tutorial - Don\'t install sample data';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -16,12 +16,12 @@ class JConfig {
 	public $user = 'root';
 	public $password = '';
 	public $db = 'joomla_tut25';
-	public $dbprefix = 'cek6q_';
+	public $dbprefix = 'p2zbo_';
 	public $live_site = '';
-	public $secret = 'WbZqyDGgXdgyLoBd';
+	public $secret = 'Q9v8zld35BGdnjZl';
 	public $gzip = '0';
 	public $error_reporting = 'default';
-	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
+	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&amp;keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '127.0.0.1';
 	public $ftp_port = '21';
 	public $ftp_user = '';
@@ -31,7 +31,7 @@ class JConfig {
 	public $offset = 'UTC';
 	public $mailer = 'mail';
 	public $mailfrom = 'kedaotau113@gmail.com';
-	public $fromname = 'Zendvn - Zoomla Tutorial Training';
+	public $fromname = 'Joomla tutorial - Don\'t install sample data';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -42,25 +42,19 @@ class JConfig {
 	public $caching = '0';
 	public $cache_handler = 'file';
 	public $cachetime = '15';
-	public $MetaDesc = 'Zend, Joomla, Training';
-	public $MetaKeys = 'Zend, Joomla, Training';
+	public $MetaDesc = '';
+	public $MetaKeys = '';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';
 	public $MetaVersion = '0';
 	public $robots = '';
 	public $sef = '1';
 	public $sef_rewrite = '0';
-	public $sef_suffix = '1';
-	public $unicodeslugs = '1';
+	public $sef_suffix = '0';
+	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = 'D:\\30_GitHub\\32_Joomla\\ZendTut25/logs';
-	public $tmp_path = 'D:\\30_GitHub\\32_Joomla\\ZendTut25/tmp';
-	public $lifetime = '150';
-	public $session_handler = 'none';
-	public $MetaRights = '';
-	public $sitename_pagetitles = '2';
-	public $force_ssl = '0';
-	public $feed_email = 'author';
-	public $cookie_domain = '';
-	public $cookie_path = '';
+	public $log_path = 'D:\\30_GitHub\\32_Joomla\\joomla_tut25/logs';
+	public $tmp_path = 'D:\\30_GitHub\\32_Joomla\\joomla_tut25/tmp';
+	public $lifetime = '15';
+	public $session_handler = 'database';
 }
