@@ -1,0 +1,118 @@
+.jsn-disable {
+    display: none !important;
+}
+div.pane-slider {
+	position: relative;
+}
+div.pane-slider fieldset.panelform {
+	overflow: visible;
+	padding: 5px 17px;
+	margin-bottom: 0;
+}
+#jsn-showlist-icon-warning,
+#jsn-showcase-icon-warning {
+	position: relative;
+	float: left;
+	height: 1%;
+	margin-top: 4px;
+}
+.jsn-select-value {
+	float: left;
+	width: 120px;
+	margin: 0;
+}
+
+.jsn-tooltip-wrap {
+	display: none;
+}
+.jsn-tooltip-title {
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+}
+.jsn-icon-warning:hover .jsn-tooltip-wrap {
+	position: absolute;
+	background: #FFFFCC;
+	border: 1px solid #D7D7AC;
+	display: block;
+	margin-left: 12px;
+	padding: 5px;
+	top: 22px;
+	width: 200px;
+	z-index: 6666;
+}
+.jsn-tooltip-anchor {
+	background: url(../images/selector-arrow.png) 13px 9px no-repeat;
+    display: block;
+    height: 48px;
+    left: -4px;
+    position: absolute;
+    top: -19px;
+    width: 45px;
+    z-index: 6666;
+}
+ul.adminformlist li span.jsn-postfix {
+	float:left;
+	padding-top:5px;
+}
+
+span.spacer {
+	display: block;
+}
+
+span.spacer label {
+	font-size: 12px;
+	padding: 5px !important;
+	background-color: #f6f6f6;
+	font-weight: bold;
+	float: none;
+	text-align: center;
+	margin: 3px 0;
+	max-width: none !important;
+	color: #000;
+	width:100% !important;	
+}
+ul.adminformlist li {
+    width:100%;
+}
+.jsn-text{
+	width:50px;
+}
+
+.jsn-disable {
+	display: none;
+}
+.jsn-menu-alert-message {
+	float:left;
+	font-size: 12px;
+}
+
+#element-box div.pane-slider fieldset.panelform {
+    margin: 0;
+    padding: 10px 15px;
+}
+#element-box #jsn-showcase-icon-warning > select,
+#element-box #jsn-showlist-icon-warning > select {
+    display: inline-block;
+    margin: 5px 10px;
+}
+.jsn-imageshow-plg-editor-wrapper #jsn-showcase-icon-warning > span, .jsn-imageshow-plg-editor-wrapper #jsn-showcase-icon-warning > a,
+.jsn-imageshow-plg-editor-wrapper #jsn-showlist-icon-warning > span, .jsn-imageshow-plg-editor-wrapper #jsn-showlist-icon-warning > a,
+#element-box #jsn-showcase-icon-warning > span, #element-box #jsn-showcase-icon-warning > a,
+#element-box #jsn-showlist-icon-warning > span, #element-box #jsn-showlist-icon-warning > a {
+    display: inline-block;
+    margin: 5px;
+}
+.jsn-master.tmpl-bluestork fieldset label, .jsn-master.tmpl-bluestork fieldset input, .jsn-master.tmpl-bluestork fieldset textarea, .jsn-master.tmpl-bluestork fieldset select, .jsn-master.tmpl-bluestork fieldset button {
+    float: left;
+}
+
+#jsn-is-module-backend-confirmbox-container {
+	padding: 10px;	
+}
+#jsn-is-module-backend-confirmbox-container a {
+	margin-left: 155px;
+    margin-top: 25px;
+}
+#jsn-is-module-backend-confirmbox-container a:hover {
+	text-decoration: none;
+}

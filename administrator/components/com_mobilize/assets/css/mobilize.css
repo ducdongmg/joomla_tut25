@@ -1,0 +1,370 @@
+
+/* PROFILE SETTINGS PAGE */
+
+/* GENERAL */
+/* CONTAINER */
+html {
+    overflow: inherit !important;
+}
+#mobilize-design .jsn-block {
+	padding: 0 10px;
+}
+#mobilize-design .jsn-block .span6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.jsn-master .jsn-row-container > .jsn-iconbar {
+    top: -1px;
+    right: -37px;
+}
+.jsn-master .jsn-row-container .jsn-column-container {
+    margin: 0;
+}
+.jsn-master .jsn-row-container #jsn-mainbody.jsn-column-container {
+    margin: 10px;
+}
+.icon-32-new-disable {
+    background-image: url("../images/icons-32/icon-32-new.png");
+    background-position: 0 -32px;
+}
+
+.icon-32-duplicate-disable {
+    background-image: url("../images/icons-32/icon-32-copy.png");
+    background-position: 0 -32px;
+}
+
+/* MENU BAR */
+#mobilize-design #jsn-menu {
+	padding: 5px;
+}
+#mobilize-design #jsn-menu ul,
+#mobilize-design #jsn-menu li {
+	margin: 0;
+}
+#mobilize-design #jsn-menu ul a {
+	margin: 0;
+	padding: 10px;
+	border-radius: 0;
+}
+/* Container Mobilize Settings */
+
+.jsn-master .jsn-bootstrap  #mobilize {
+	margin: 0px auto;
+}
+.jsn-master .jsn-bootstrap #mobilize .jsn-section-content {
+    padding: 0;
+}
+.jsn-bootstrap .table-popup .jsnhover:hover {
+	cursor: pointer;
+}
+.jsn-bootstrap .mobilize-title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.jsn-master .jsn-bootstrap .ui-tabs {
+	position: static;
+}
+
+.jsn-master .jsn-bootstrap .ui-tabs .combo-group .combo-item {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+/* Checkbox Support */
+.jsn-master .jsn-bootstrap .jsn-inline {
+	display: inline-block;
+}
+
+/* Mobilize block container*/
+
+.jsn-master .mobilize-menu li a.link-menu-mobilize {
+	opacity: 0.5;
+}
+
+.jsn-master .mobilize-menu li a.link-menu-mobilize {
+	opacity: 1;
+}
+
+.jsn-master .jsn-bootstrap .jsn-mobilize .container-fluid {
+	padding: 0;
+}
+
+.jsn-bootstrap #mobile-phone .mobilize-logo img {
+	margin-bottom: 5px;
+}
+
+.jsn-bootstrap #mobilize .mobilize-logo img {
+	margin-bottom: 5px;
+}
+
+/* End */
+/* Select Style */
+.jsn-bootstrap #jsn-mobilize-styles .jsn-first-child {
+	margin-left: 0;
+}
+
+.jsn-bootstrap #jsn-mobilize-styles .thumbnail {
+	cursor: pointer;
+}
+
+.jsn-bootstrap #jsn-mobilize-styles .thumbnail img {
+	border: 1px solid #CCCCCC;
+}
+
+.jsn-bootstrap #jsn-mobilize-styles .thumbnail .caption {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.jsn-bootstrap #jsn-mobilize-styles .thumbnail .caption.jsn-capitalize {
+	text-align: center;
+	font-size: 14px;
+	text-transform: none;
+}
+
+.jsn-bootstrap #jsn-mobilize-styles .jsn-style-active .thumbnail:hover,
+.jsn-bootstrap #jsn-mobilize-styles .jsn-style-active .thumbnail {
+	cursor: not-allowed;
+	background-color: #FFCC33;
+	box-shadow: 0 0 5px #999999;
+	font-weight: bold;
+}
+
+.jsn-bootstrap #jsn-mobilize-styles .thumbnail:hover {
+	background-color: #EFEFEF;
+	box-shadow: 0 0 5px #999999;
+}
+
+/* End */
+/*Popup*/
+.jsn-master .jsn-bootstrap.mobilize-dialog {
+	position: absolute;
+	z-index: 100;
+	width: 500px;
+
+}
+.jsn-master .jsn-bootstrap.mobilize-dialog .popover {
+	width: 100%;
+	max-width: none;
+}
+
+
+.jsn-master .jsn-bootstrap .jsn-element-position {
+	float: left;
+	margin-left: 20px;
+	padding-bottom: 15px;
+}
+
+.jsn-master .jsn-bootstrap .jsn-element-module {
+	float: right;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+
+/* End */
+/* Profile*/
+.jsn-master .jsn-bootstrap .jsn-element-disabale-container,
+.jsn-master .jsn-bootstrap .jsn-element-container {
+	min-height: 40px;
+	border-top: 1px solid transparent;
+}
+
+.jsn-master .jsn-bootstrap ul.menu-bottom > li {
+	float: none;
+	text-align: center;
+}
+
+.jsn-master .jsn-bootstrap ul.menu-bottom > li > a {
+	display: inline;
+}
+
+.jsn-master .jsn-bootstrap #os-support.jsn-items-list-container {
+	margin-right: 10px;
+}
+
+.jsn-master .jsn-bootstrap #os-support.jsn-items-list-container .jsn-items-list {
+	height: 250px;
+}
+
+.jsn-master .jsn-bootstrap .header-10percent {
+	width: 10%;
+}
+
+.jsn-bootstrap .input-prepend {
+	margin: 0 auto;
+	width: 125px;
+}
+
+.jsn-bootstrap .table .jsn-column-ordering span.state {
+	background-image: url("../images/glyphicons-halflings.png");
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: text-top;
+	width: 14px;
+}
+
+.jsn-bootstrap .table span.state.downarrow {
+	background-position: -312px -96px;
+}
+
+.jsn-bootstrap .table span.state.uparrow {
+	background-position: -289px -96px;
+}
+
+.jsn-master .jsn-page-list .input-prepend input.jsn-input-ordering {
+	margin-left: 0;
+	text-align: center;
+}
+
+.jsn-bootstrap .saveorder {
+	display: inline-block;
+	float: none;
+}
+
+.jsn-master .jsn-bootstrap #os-support .jsn-item.ui-state-default:hover {
+	cursor: default;
+}
+.jsn-master .jsn-bootstrap input.jsn-borderColor {
+	display: none;
+}
+.jsn-bootstrap .combo-item {
+	display: inline;
+	float: left;
+}
+.jsn-bootstrap input.jsn-select-color {
+	width: 90px;
+}
+.jsn-master .jsn-bootstrap input.jsn-fontColor,
+.jsn-master .jsn-bootstrap input.jsn-soildColor,
+.jsn-master .jsn-bootstrap input.jsn-shadowColor {
+   display: none;
+}
+.jsn-master .jsn-bootstrap .combo-item {
+	margin-right: 5px;
+}
+.jsn-master .jsn-row-container .jsn-column-container {
+    float: none;
+}
+.jsn-master #jsn-switcher,
+.jsn-master #jsn-logo {
+	padding: 10px;
+}
+.jsn-master #jsn-switcher {
+    text-align: center;
+}
+#jsn_mobilize_select_logo.jsn-logo-null {
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    border: 1px solid #cccccc;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+/*Template design*/
+
+#jsn-mobilize.jsn-layout-mobile .row-fluid [class*="span"]:first-child {
+	margin-left: 0;
+}
+
+#jsn-mobilize.jsn-layout-mobile [class*="span"],
+#jsn-mobilize.jsn-layout-mobile .row-fluid [class*="span"] {
+	display: block;
+	float: none;
+	margin-left: 0;
+	width: auto;
+}
+
+/* Icon */
+.icon-48-mobilize-about {
+	background-image: url("../images/icons-48/icon-star.png");
+}
+
+.icon-48-mobilize-config {
+	background-image: url("../images/icons-48/icon-cog.png");
+}
+
+.icon-48-mobilize-profiles {
+	background-image: url("../images/icons-48/icon-finder.png");
+}
+/* End */
+.jsn-master #mobilize-design .jsn-row-container {
+    padding: 0;
+    margin-bottom: 0;
+}
+.jsn-master #mobilize-design .jsn-row-container .jsn-element,
+.jsn-master #mobilize-design .jsn-row-container .jsn-add-more {
+    margin: 10px;
+}
+.jsn-master #mobilize-design .jsn-row-container .jsn-element {
+	background-color: rgba(255,255,255,0.4);
+	box-shadow: inset 0 0 2px rgba(255,255,255,0.5);
+	transition: background 0.3s ease-out;
+	-moz-transition: background 0.3s ease-out;
+	-webkit-transition: background 0.3s ease-out;
+}
+.jsn-master #mobilize-design .jsn-row-container .jsn-element:hover {
+	background-color: #F4F4F4;
+}
+.jsn-master #mobilize-design #jsn-user-top .jsn-row-container .jsn-element {
+	color: #eee;
+}
+.jsn-master .ui-sortable .ui-state-default:hover .jsn-iconbar {
+	background: rgba(255,255,255,0.5);
+}
+#container-select-style {
+    position: absolute;
+    min-height: 300px;
+}
+#container-select-style .popover{
+    width: 100%;
+    max-width: none;
+}
+.jsn-bootstrap .thumbnail{
+    margin: 0px 5px 10px;
+}
+.jsn-bootstrap .jsn-mobilize-upgrade p{
+    margin: 10px;
+}
+.jsn-bootstrap .jsn-element-container .ui-state-highlight{
+    margin: 10px;
+    border-radius: 0;
+}
+.jsn-bootstrap .jsn-section-header .jsn-page-actions {
+    text-transform: none;
+}
+.jsn-master .colorpicker input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #898989;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    height: 11px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 11px;
+    text-align: right;
+    top: 4px;
+}
+.jsn-master #jsn-block-container input.jsn-select-color{
+    display: none;
+}
+.jsn-mobilize-form{
+    min-height: 500px;
+}
+.jsn-iconbar-trigger .jsn-text-center{
+    padding: 10px;
+}
+.jsn-iconbar-trigger .jsn-text-center a{
+    color: #025A8D;
+    outline: medium none;
+    text-decoration: none;
+}
